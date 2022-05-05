@@ -19,3 +19,7 @@ function getRandomKey() {
     key.classList.add("selected");
     let start = Date.now()
   }  
+
+  function getTimestamp() {
+    return Math.floor(Date.now() / 1000)
+  }
